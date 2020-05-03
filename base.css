@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  font-size: 12px;
+  color: #6a6a6a;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+}
+body {
+  /* height: 3000px; */
+}
+
